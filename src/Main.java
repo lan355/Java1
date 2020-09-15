@@ -5,7 +5,7 @@ public class Main {
         Airport airport = new Airport();
         Airports airports = new Airports();
         Scanner scanner = new Scanner(System.in);
-        /*System.out.print("Введите имя: ");
+        System.out.print("Введите имя: ");
         airport.setFirstname(scanner.nextLine());
         System.out.print("Введите фамилию: ");
         airport.setMiddlename(scanner.nextLine());
@@ -18,7 +18,7 @@ public class Main {
         System.out.print("Выберите класс багажа: \n 1)Эконом Класс = 1место не более 23 кг \n 2)Бизнес класс 2 места по 23 кг \n");
         airport.setNumberOfSeatsBag(scanner.nextInt());
         System.out.print("Введите суммарный вес багажа:");
-        airport.setSummWeightOfBag(scanner.nextInt());*/
+        airport.setSummWeightOfBag(scanner.nextInt());
 
         System.out.print("\n");
         System.out.print(airport.toString());
