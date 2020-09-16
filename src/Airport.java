@@ -1,5 +1,6 @@
-public class Airport {
-   private String firstname, middlename,lastname;
+public class Airport
+{
+    private String firstname, middlename,lastname;
    private String numberFlight,numberBag;
    SeatsBag numberOfSeatsBag;
    private int summWeightOfBag;
@@ -59,7 +60,7 @@ public class Airport {
     {
         this.lastname = CorrectText(lastname) ? lastname : "Неправильное Отчество ";
     }
-    public SeatsBag getNumberOfSeatsBag()
+    public int getNumberOfSeatsBag()
     {
         return getNumberOfSeatsBag();
     }
